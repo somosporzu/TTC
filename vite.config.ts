@@ -1,11 +1,12 @@
-
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // Base se deja vacía o se ajusta si el repo tiene un nombre específico
-  // GitHub Pages suele requerir base relativa para funcionar en subcarpetas
+  plugins: [react()],
+  // Importante para GitHub Pages: usa rutas relativas
   base: './',
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
   }
 });
