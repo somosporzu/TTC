@@ -1,0 +1,5 @@
+{
+  "name": "RPG Technique Creator",
+  "description": "A web application to easily create and balance new techniques for your tabletop role-playing game based on a custom ruleset. Follow the steps to define your technique's power, select its effects, and see the final result.",
+  "requestFramePermissions": []
+}
